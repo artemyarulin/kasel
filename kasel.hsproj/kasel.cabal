@@ -1,0 +1,11 @@
+name: kasel
+version: 1.0
+cabal-version: 1.6
+build-type: Simple
+license: AllRightsReserved
+stability: experimental
+Executable kasel
+  main-is: Kasel.hs
+  buildable: True
+  build-depends:
+      base -any
