@@ -12,14 +12,14 @@ http://example.com/other-link (O)pen (S)kip (B)lacklist ^C
 $ cat kasel.ini
 [blacklist]
 c822c1b63853ed273b89687ac505f9fa
-[visited]
+[known]
 a9b9f04336ce0181a08e774e01113b31
 $ kasel < email.eml
 http://example.com/something-else (O)pen (S)kip (B)lacklist O
 $ cat kasel.ini
 [blacklist]
 c822c1b63853ed273b89687ac505f9fa
-[visited]
+[known]
 a9b9f04336ce0181a08e774e01113b31
 1ad3bed1e7f1278e7391bd12c563877c
 $ kasel < `curl https://www.reddit.com/r/Clojure`
